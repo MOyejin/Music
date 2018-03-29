@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465843778CF98AC14EF8FB34 /* libPods-音频Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B038F8B0C2AA0F8506CD0696 /* libPods-音频Demo.a */; };
+		CD136C931FF362CE002EE402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136C921FF362CE002EE402 /* AppDelegate.m */; };
+		CD136C961FF362CE002EE402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136C951FF362CE002EE402 /* ViewController.m */; };
+		CD136C9B1FF362CE002EE402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD136C9A1FF362CE002EE402 /* Assets.xcassets */; };
+		CD136C9E1FF362CE002EE402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD136C9C1FF362CE002EE402 /* LaunchScreen.storyboard */; };
+		CD136CA11FF362CE002EE402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CA01FF362CE002EE402 /* main.m */; };
+		CD136CAA1FF364DD002EE402 /* MOCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CA91FF364DD002EE402 /* MOCacheViewController.m */; };
+		CD136CAD1FF364F3002EE402 /* MOAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CAC1FF364F3002EE402 /* MOAudioViewController.m */; };
+		CD136CB41FF36A5D002EE402 /* YourDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CB21FF36A5D002EE402 /* YourDataModel.m */; };
+		CD136CB61FF36D0F002EE402 /* addAudio.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD136CB51FF36D0F002EE402 /* addAudio.plist */; };
+		CD136CB81FF36D23002EE402 /* AudioData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD136CB71FF36D23002EE402 /* AudioData.plist */; };
+		CD136CBA1FF371F3002EE402 /* default_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD136CB91FF371F3002EE402 /* default_bg.jpg */; };
+		CD136CBE1FF3730E002EE402 /* NSObject+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CBD1FF3730E002EE402 /* NSObject+Alert.m */; };
+		CD136CC31FF374D5002EE402 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CC01FF374D5002EE402 /* UIImage+Blur.m */; };
+		CD136CC71FF37B14002EE402 /* MOMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CC61FF37B13002EE402 /* MOMusicViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77895982F8FACB080B900F28 /* Pods-音频Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音频Demo/Pods-音频Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D8768FCBFA5587AE3DB0F7 /* Pods-音频Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-音频Demo/Pods-音频Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B038F8B0C2AA0F8506CD0696 /* libPods-音频Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音频Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD136C8E1FF362CE002EE402 /* 音频Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音频Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD136C911FF362CE002EE402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD136C921FF362CE002EE402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD136C941FF362CE002EE402 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD136C951FF362CE002EE402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD136C9A1FF362CE002EE402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD136C9D1FF362CE002EE402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD136C9F1FF362CE002EE402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD136CA01FF362CE002EE402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD136CA81FF364DD002EE402 /* MOCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCacheViewController.h; sourceTree = "<group>"; };
+		CD136CA91FF364DD002EE402 /* MOCacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCacheViewController.m; sourceTree = "<group>"; };
+		CD136CAB1FF364F3002EE402 /* MOAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOAudioViewController.h; sourceTree = "<group>"; };
+		CD136CAC1FF364F3002EE402 /* MOAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOAudioViewController.m; sourceTree = "<group>"; };
+		CD136CB21FF36A5D002EE402 /* YourDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourDataModel.m; sourceTree = "<group>"; };
+		CD136CB31FF36A5D002EE402 /* YourDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourDataModel.h; sourceTree = "<group>"; };
+		CD136CB51FF36D0F002EE402 /* addAudio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = addAudio.plist; sourceTree = "<group>"; };
+		CD136CB71FF36D23002EE402 /* AudioData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AudioData.plist; sourceTree = "<group>"; };
+		CD136CB91FF371F3002EE402 /* default_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_bg.jpg; sourceTree = "<group>"; };
+		CD136CBC1FF3730D002EE402 /* NSObject+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Alert.h"; sourceTree = "<group>"; };
+		CD136CBD1FF3730E002EE402 /* NSObject+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Alert.m"; sourceTree = "<group>"; };
+		CD136CBF1FF374D4002EE402 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		CD136CC01FF374D5002EE402 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		CD136CC51FF37B13002EE402 /* MOMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOMusicViewController.h; sourceTree = "<group>"; };
+		CD136CC61FF37B13002EE402 /* MOMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOMusicViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD136C8B1FF362CE002EE402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465843778CF98AC14EF8FB34 /* libPods-音频Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176BD42765CD0075DC0262E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77895982F8FACB080B900F28 /* Pods-音频Demo.debug.xcconfig */,
+				A7D8768FCBFA5587AE3DB0F7 /* Pods-音频Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		19BB3750781D450675D0D215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B038F8B0C2AA0F8506CD0696 /* libPods-音频Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD136C851FF362CE002EE402 = {
+			isa = PBXGroup;
+			children = (
+				CD136C901FF362CE002EE402 /* 音频Demo */,
+				CD136C8F1FF362CE002EE402 /* Products */,
+				176BD42765CD0075DC0262E3 /* Pods */,
+				19BB3750781D450675D0D215 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD136C8F1FF362CE002EE402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD136C8E1FF362CE002EE402 /* 音频Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD136C901FF362CE002EE402 /* 音频Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CD136CBB1FF37305002EE402 /* other */,
+				CD136CB11FF369C0002EE402 /* Model */,
+				CD136CAE1FF3685E002EE402 /* View */,
+				CD136CA71FF364A5002EE402 /* VC */,
+				CD136C911FF362CE002EE402 /* AppDelegate.h */,
+				CD136C921FF362CE002EE402 /* AppDelegate.m */,
+				CD136C941FF362CE002EE402 /* ViewController.h */,
+				CD136C951FF362CE002EE402 /* ViewController.m */,
+				CD136C9A1FF362CE002EE402 /* Assets.xcassets */,
+				CD136C9C1FF362CE002EE402 /* LaunchScreen.storyboard */,
+				CD136C9F1FF362CE002EE402 /* Info.plist */,
+				CD136CA01FF362CE002EE402 /* main.m */,
+			);
+			path = "音频Demo";
+			sourceTree = "<group>";
+		};
+		CD136CA71FF364A5002EE402 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CD136CA81FF364DD002EE402 /* MOCacheViewController.h */,
+				CD136CA91FF364DD002EE402 /* MOCacheViewController.m */,
+				CD136CAB1FF364F3002EE402 /* MOAudioViewController.h */,
+				CD136CAC1FF364F3002EE402 /* MOAudioViewController.m */,
+				CD136CC51FF37B13002EE402 /* MOMusicViewController.h */,
+				CD136CC61FF37B13002EE402 /* MOMusicViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CD136CAE1FF3685E002EE402 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD136CB11FF369C0002EE402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD136CB91FF371F3002EE402 /* default_bg.jpg */,
+				CD136CB71FF36D23002EE402 /* AudioData.plist */,
+				CD136CB51FF36D0F002EE402 /* addAudio.plist */,
+				CD136CB31FF36A5D002EE402 /* YourDataModel.h */,
+				CD136CB21FF36A5D002EE402 /* YourDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD136CBB1FF37305002EE402 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				CD136CBC1FF3730D002EE402 /* NSObject+Alert.h */,
+				CD136CBD1FF3730E002EE402 /* NSObject+Alert.m */,
+				CD136CBF1FF374D4002EE402 /* UIImage+Blur.h */,
+				CD136CC01FF374D5002EE402 /* UIImage+Blur.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD136C8D1FF362CE002EE402 /* 音频Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD136CA41FF362CE002EE402 /* Build configuration list for PBXNativeTarget "音频Demo" */;
+			buildPhases = (
+				8C9227D569BB1602C6DAB301 /* [CP] Check Pods Manifest.lock */,
+				CD136C8A1FF362CE002EE402 /* Sources */,
+				CD136C8B1FF362CE002EE402 /* Frameworks */,
+				CD136C8C1FF362CE002EE402 /* Resources */,
+				A58B34315B2B90F2B0E5BF8F /* [CP] Embed Pods Frameworks */,
+				6C082F6137723CE0E0046707 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音频Demo";
+			productName = "音频Demo";
+			productReference = CD136C8E1FF362CE002EE402 /* 音频Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD136C861FF362CE002EE402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = momo;
+				TargetAttributes = {
+					CD136C8D1FF362CE002EE402 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CD136C891FF362CE002EE402 /* Build configuration list for PBXProject "音频Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD136C851FF362CE002EE402;
+			productRefGroup = CD136C8F1FF362CE002EE402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD136C8D1FF362CE002EE402 /* 音频Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD136C8C1FF362CE002EE402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD136C9E1FF362CE002EE402 /* LaunchScreen.storyboard in Resources */,
+				CD136CB81FF36D23002EE402 /* AudioData.plist in Resources */,
+				CD136CBA1FF371F3002EE402 /* default_bg.jpg in Resources */,
+				CD136C9B1FF362CE002EE402 /* Assets.xcassets in Resources */,
+				CD136CB61FF36D0F002EE402 /* addAudio.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C082F6137723CE0E0046707 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音频Demo/Pods-音频Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9227D569BB1602C6DAB301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A58B34315B2B90F2B0E5BF8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音频Demo/Pods-音频Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD136C8A1FF362CE002EE402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD136C961FF362CE002EE402 /* ViewController.m in Sources */,
+				CD136CC71FF37B14002EE402 /* MOMusicViewController.m in Sources */,
+				CD136CAA1FF364DD002EE402 /* MOCacheViewController.m in Sources */,
+				CD136CC31FF374D5002EE402 /* UIImage+Blur.m in Sources */,
+				CD136CB41FF36A5D002EE402 /* YourDataModel.m in Sources */,
+				CD136CAD1FF364F3002EE402 /* MOAudioViewController.m in Sources */,
+				CD136CBE1FF3730E002EE402 /* NSObject+Alert.m in Sources */,
+				CD136CA11FF362CE002EE402 /* main.m in Sources */,
+				CD136C931FF362CE002EE402 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD136C9C1FF362CE002EE402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD136C9D1FF362CE002EE402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD136CA21FF362CE002EE402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD136CA31FF362CE002EE402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD136CA51FF362CE002EE402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77895982F8FACB080B900F28 /* Pods-音频Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MC96DZKD;
+				INFOPLIST_FILE = "音频Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.momo.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD136CA61FF362CE002EE402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D8768FCBFA5587AE3DB0F7 /* Pods-音频Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MC96DZKD;
+				INFOPLIST_FILE = "音频Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.momo.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD136C891FF362CE002EE402 /* Build configuration list for PBXProject "音频Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD136CA21FF362CE002EE402 /* Debug */,
+				CD136CA31FF362CE002EE402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD136CA41FF362CE002EE402 /* Build configuration list for PBXNativeTarget "音频Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD136CA51FF362CE002EE402 /* Debug */,
+				CD136CA61FF362CE002EE402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD136C861FF362CE002EE402 /* Project object */;
+}
